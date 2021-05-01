@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!--This is the login html
+by: Trevor Satrom
+contact tjsatrom@gmail.com
+for CSC102 SP2021 Wk3-2 -->
+
+<!--this is the head (aka tab) script-->
+<head>
+    <!--this is where we tell the computer to refer to the javascript file loginCode.js for 
+    the login page, credentials, etc.-->
+    <script src="loginCode.js"></script>
+    <!--the white text denotes the title, or large font on the top of the webpage-->
+    <title>UATSpace login</title>
+    <!--this is the end of the head or header-->
+</head>
+<!--please link to the style.css file for background information regarding gradient-->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--this is the beginning of the body-->
+<body>
+    <!--the Welcome text in White is what the page will say. -->
+    <h1>
+        Welcome to UATSpace login page
+    </h1>
+    <!--p id denotes paragraph, or spacing on the page-->
+    <p id="loginStatus">
+        <!--the Status of login text in White is what the page will say.-->
+        Status of login
+    </p>
+    <!--br= break or space, carriage return or character return-->
+    <br>
+    <!--this is where we create the layout of the credentials on the login page-->
+    <form id="creditSubmit" onsubmit="return false">
+     <!--this is where we create a place to input First Name or fName-->
+    First Name:    <input type="text" id="fName" /><br>
+    <!--this is where we create a place to input Last Name or lName-->
+    Last Name:    <input type="text" id="lName" /><br>
+    <!--this is where we create a place to input Badge Number or badgeID-->
+    Badge Number:    <input type="number" id="badgeID" /><br>
+    <!--this is where we tell the program to check the credentials-->
+    <input type="submit" onclick="checkCreds();" />
+    </form>
+<!--this is the end of the body-->
+</body>
+<!--this is the end of the web page-->
+</html>

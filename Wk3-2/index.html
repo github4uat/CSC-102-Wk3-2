@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--file creator: Trevor Satrom
+    email:tjsatrom@gmail.com
+    for CSC102 Class Sp2021Online3-->
+
+<!--Casino Assignment: Put this Assignment onto GITHUB! 
+Title: Galactic Pods
+Scene: The year is 2025 and things are going well in the outer edge of earth's orbit.  The quest for ubiquitous 
+high speed internet across the globe has led to rapid expansion of semi-inhabitable spaces known as Galactic Pods.  
+These Pods are used as Travel Destinations for Earth's ultra wealthy, as well as refractory satellites for Ubiquinet,
+(the high speed internet that made the majority of other forms of internet obsolete).  
+
+A typical Galactic Pod is about the size of a football field, and is comprised of dozens of nodules that have been
+sent to space individually and connected together, similar to the space station.  These nodules can be easily added 
+and removed from a Galactic Pod, and sent further into space, or back to earth for repair.  There are many different
+types of nodules, including farm, garden, restaurant, casino, entertainment, relaxation, excercise, business, etc.  
+Basically any type of space we could think of on Earth has been shrunk into a capsule and launched into space.
+
+The casinos in Galactic Pods are quite exquisite.  Comprised of enormous windows framing stunning views of Earth 
+and the moon, these casinos are like no other.  Exterior's are cladwith a light colored, highly 
+reflective material commonly referred to as "moon dust'.  Resembling an opaque version of marble, and backlit 
+with warm light, there is quite literally no known comparable experience.  
+
+Unlike earth, where we're bound by gravity and the roofs that contain us, Galactic Pods expand indefinitely. As part of a large expanse of nodes, similar
+to a 3-d model of a DNA strand, you get the sense that you're part of a larger, dynamically changing matrix of construction
+and expansion.  As jet packs take individuals between various Pods at scheduled intervals throughout the day, there's a
+feeling of both being overwhelmed and miniaturized at the same time. 
+Scene:-->
+<html>
+
+<head>
+    <!--This is the head, 
+    none of this appears in the body of the page-->
+    <script src="code.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--The font in white, between the titles, is what shows up on the page.-->
+    <title>
+        Trevor's UATSpace Page
+    </title>
+
+</head>
+<script>
+    //this is a single line javascript comment
+
+//this is the end of the script
+</script>
+
+
+
+<body>
+    <!--This is the body, img src is linking to a file.jpg so the computer knows where to look.-->
+    <img src="UATspaceLogo.jpg">
+    <!--The h1 denotes text size and boldness.  H1 is the biggest and boldest and it goes down from 
+    there to h2, h3, etc.  The white text denotes text as it appears on the webpage. -->
+    <h1>
+        This is my page!!!
+    </h1>
+    <!--paragraph tags help to add spatial distance on the webpage so things don't get jumbled up -->
+    <p>
+        this is a test of paragraph tags
+    </p>
+    <script>
+        document.write("This is a test of the document.write function");
+    </script>
+    <!--Carriage break does typewriter things-->
+    <br>
+    <br>
+    <!--this creates a countdown timer-->
+    <p id="countDownTimer">Starting countdown here...</p>
+    <br>
+    <!--this creates a start/stop button-->
+    <!--you've modified the countDownTimer to countDownTimerV2 (version2)
+    At this point you're starting the timer at the bottom of the screen-->
+    <button class="button" onclick="countDownTimerV3();">Start</button><button class="button">Stop</button>
+    <br>
+    <br>
+    <!--this shows the results of the craps game/round-->
+    <h3 id= "crapsResults">Result of the Craps Round</h3>
+    <br>
+    <!--this says that die1 needs to be rolled-->
+    Die1 is: <div id="die1Res">needs to be rolled</div><br>
+    <!--this says that die2 needs to be rolled-->
+    Die2 is: <div id="die2Res">needs to be rolled</div><br>
+    <!--this says The Sum of Die1 + Die2 is: 
+    needs to be rolled-->
+    Sum of Die1 + Die2 is: <div id="sumRes">needs to be rolled</div><br>
+    <!--this button has been enlarged to fit the text properly.  It looks funky when
+    the text is spilling over the button.  The button says"Play Craps Here"-->
+    <button class ="lgButton" onclick="playCraps();">Play Craps Here!</button>
+    <br>
+    <!--this is a br for break, or carriage return?  character return?  it makes a space-->
+    <br>
+    <br>
+    <!--this is where we create the text above the "Try It" button that says "Sandbox Display"-->
+    <div id="sandboxDisplay">Sandbox Display</div>
+    <br>
+    <!--this where we create a "Try It" button below the Sandbox Display text.  Once someone
+    clicks "Try It" It counts down from 10 to 0 and then says Blastoff!-->
+    <button class="sandButton" onclick="runSandbox();">Try it!</button>
+
+</body>
+<!--this is the end of the page-->
+
+</html>
+<!--NOTES TO SELF!   
+Don't forget to add comments to most of the lines of code! check
+Don't forget to turn in screenshots of the program running! This week they are attached to the Wk3-2.docx file. check 
+Don't forget to UPLOAD via GITHUB!!! check
+Don't forget to turn in Notes and Extra Credit at Same time as Assignment. Make sure EC gets to discussion section of videos.-->
